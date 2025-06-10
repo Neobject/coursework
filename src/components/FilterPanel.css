@@ -1,0 +1,64 @@
+/* Стили для FilterPanel */
+
+/* Карточка */
+.filter-card {
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* Заголовок */
+.filter-card-title {
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+/* Форма використовує grid для рівного розташування */
+.filter-form {
+  display: block;
+}
+
+/* CSS Grid для полів фільтра */
+.filter-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 16px;
+}
+
+/* Кожен блок фільтра */
+.filter-item {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Лейбли */
+.filter-label {
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+/* Поля вводу і селекти */
+.filter-input {
+  width: 100%;
+  height: 38px;
+  padding: 6px 12px;
+  font-size: 1rem;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Рядок з кнопками */
+.filter-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+/* Кнопки */
+.filter-button {
+  min-width: 120px;
+  height: 38px;
+  font-size: 1rem;
+}
